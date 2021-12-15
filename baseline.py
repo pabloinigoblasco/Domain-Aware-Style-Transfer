@@ -517,7 +517,8 @@ class Baseline(object):
 		photo_reference_loader_iter = iter(photo_reference_loader)
 		empty_segment = np.asarray([])
 
-		dir_path = os.path.join(self.result_img_dir, 'interpolate', ,  self.DA_comment+'_'+self.ST_comment)
+		print(self.result_img_dir)
+		dir_path = os.path.join(self.result_img_dir, 'interpolate',  self.DA_comment+'_'+self.ST_comment)
 
 		
 		N = art_reference_set.__len__()
